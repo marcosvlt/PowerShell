@@ -1,1 +1,2 @@
 Import-Module Azure
+Get-AzureVm

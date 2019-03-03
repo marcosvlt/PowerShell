@@ -1,2 +1,20 @@
+# Importar o modulo Azure
 Import-Module Azure
+
+# Adicionar uma conta azure
+Add-AzureAccount
+
+# Ver lista Vms
 Get-AzureVm
+
+# Ver Assinaturas azure
+Get-AzureSubscription
+
+# Remover uma assinatura
+Remove-AzureSubscription 'Free Trial'
+
+# Download arquivo assinatura
+Get-AzurePublishSettingsFile
+
+# Importa o cert 
+Import-AzurePublishSettingsFile 'Caminho do Cert'

@@ -18,3 +18,8 @@ Get-AzurePublishSettingsFile
 
 # Importa o cert 
 Import-AzurePublishSettingsFile 'Caminho do Cert'
+
+
+# Mapear unidade de rede no storage do azure
+
+net use g: \\
